@@ -1,0 +1,98 @@
+/*nole*/ 
+//fucking prueba
+
+@import "bem";
+
+
+/*noleprueba*/
+
+
+
+
+
+$ancho: 720px;
+
+$pink: rgb(235, 34, 67);
+
+/*operaciones
+suma
+resta
+multiplicacion
+division
+*/
+
+
+section{
+    width:$ancho / 2;
+    p{
+        width: $ancho/2;
+    }
+}
+
+main{
+    width: $ancho /2;
+}
+
+
+
+/*bucles*/
+
+@for $titulo from 2 to 6 {
+    //bloque q se repite
+h#{$titulo}{
+   font-size: 2,5rem;
+   color: rgb(235, 0, 39);
+}
+}
+
+//each
+
+@each $pink in body,div,aside,section,article,footer{
+    #{
+        $pink
+    }
+    {
+        background-color: $pink;
+    }
+}
+
+
+
+
+/*prueba*/
+
+
+
+footer{
+    text-align: center;
+    color: red;
+   
+ 
+}
+
+.table-flex
+   {
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+
+     
+
+  }
+
+  #menu{
+    background-color: rgb(226, 199, 199);
+          }
+
+
+          h1{
+              color: red;
+              text-align: center;
+          }
+
+          .table-flex{
+              justify-content: center;
+              color:blue;
+          }
+
+          

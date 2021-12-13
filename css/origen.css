@@ -1,0 +1,98 @@
+/*nole*/
+/*bloque*/
+/*noleprueba*/
+/*operaciones
+suma
+resta
+multiplicacion
+division
+*/
+section {
+  width: 360px;
+}
+
+section p {
+  width: 360px;
+}
+
+main {
+  width: 360px;
+}
+
+/*bucles*/
+h2 {
+  font-size: 2,5rem;
+  color: #eb0027;
+}
+
+h3 {
+  font-size: 2,5rem;
+  color: #eb0027;
+}
+
+h4 {
+  font-size: 2,5rem;
+  color: #eb0027;
+}
+
+h5 {
+  font-size: 2,5rem;
+  color: #eb0027;
+}
+
+body {
+  background-color: body;
+}
+
+div {
+  background-color: div;
+}
+
+aside {
+  background-color: aside;
+}
+
+section {
+  background-color: section;
+}
+
+article {
+  background-color: article;
+}
+
+footer {
+  background-color: footer;
+}
+
+/*prueba*/
+footer {
+  text-align: center;
+  color: red;
+}
+
+.table-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu {
+  background-color: #e2c7c7;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+.table-flex {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: blue;
+}
+/*# sourceMappingURL=origen.css.map */
