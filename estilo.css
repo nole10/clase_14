@@ -1,0 +1,156 @@
+/*esto es un comentario en css*/
+
+/* selector {
+    propiedad 1:valor1;
+    propiedad2:valor2;
+   }*/
+   
+   h1{
+       color:red;
+   }
+
+   /*estilo de texto*/
+
+   
+
+
+/*color article */
+   #uno{
+       background-color:pink;
+
+   }
+   /* color footer*/
+
+  
+
+   #footer{
+       background-color:green
+   }
+
+  
+
+
+
+   
+  /*color menu*/
+  
+      #menu{
+background-color: darkgray;
+      }
+  
+
+  
+  li{
+      color:blue
+  }
+
+  h2{
+      color:green
+  }
+  h4{
+      color:darkorange
+  }
+  h2{
+      color:coral
+  }
+  h3{
+      color:coral
+  }
+
+  #section{
+      background-color:pink
+  }
+
+  main {
+      margin:50px;
+  }
+   /*alineado titulo principal*/
+
+  .centrar{
+      text-align: center;
+
+  }
+
+  /*estilos de lista en la etiqueta ul*/
+
+  ul{
+
+      list-style-type: lower-greek;
+      
+  }
+
+  body{
+      font-family:'Source Sans Pro', sans-serif;
+  }
+  
+  li{
+      display: inline;
+      width: 50px;
+      position: relative;
+      font-size: x-large;
+      margin-left: 20px;
+  }
+
+  /*estilos generales*/
+
+ 
+  
+
+
+
+
+  /*box modeling*/
+   
+  
+ 
+
+
+  .table-flex
+   {
+      display: flex;
+      text-decoration: none;
+      justify-content: center;
+
+     
+
+  }
+
+  footer{
+      text-align: center;
+      color: gold;
+     
+   
+  }
+
+  /*degradados*/
+
+ .gradiente-lineal{
+     background-image:linear-gradient(pink,rgb(46, 6, 46)) ;
+     height: 100vh;
+ }
+
+ div{
+     width: 200px;
+     height: 200px;
+ }
+
+
+
+/*transiciones*/
+
+.transicion{
+    transition: width 2s;
+
+}
+.transicion:hover{
+    width: 200px;;
+}
+
+.color{
+    background-color: aliceblue;
+    display: inline;
+    width: 50px;
+    position: relative;
+    font-size: x-large;
+    margin-left: 20px;
+}
